@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* ============================ HEADER ============================== */
+
+header {
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 8px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #fff;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo {
+  padding: 5px 0 0;
+}
+header .container .nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .container .nav .menu li a {
+  display: inline-block;
+  padding: 40px 12px 35px;
+  font-size: 15px;
+  color: #a82d49;
+  font-weight: 600;
+}
+header .container .nav .menu li:last-of-type a {
+  padding: 5px 23px;
+  background-color: #a82d49;
+  color: #fff;
+  border: 3px solid #a82d49;
+}
+header .container .nav .menu li:last-of-type a:hover {
+  background-color: #fff;
+  color: #a82d49;
+}
+
+/* ============================================ INTRO ==========================*/
+
+.intro {
+  background: url(../images/3.jpg) no-repeat center;
+  padding: 270px 0 150px;
+  background-size: cover;
+}
+.intro .intro_content {
+  width: 41.66666667%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.intro .intro_content h3 {
+  color: #43121d;
+  margin: 0px 0px 25px;
+  font-size: 48px;
+  letter-spacing: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+.intro .intro_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  padding: 0 0 13px;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+}
+.btn {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 11px 28px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.4s;
+}
+.btn.btn-order-now,
+.frimary {
+  background: #a82d49;
+  border: 3px solid #a82d49;
+  color: #fff;
+  margin-right: 20px;
+}
+.btn.btn-learn-more {
+  color: #000;
+  background-color: #ffffff;
+  border: 3px solid #fff;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+.btn i {
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn.btn-order-now:hover,
+.btn.btn-learn-more:hover,
+.frimary:hover {
+  background: transparent;
+  color: #a82d49;
+  border: 3px solid #a82d49;
+}
+
+/* ======================================== SALES =============================*/
+
+section.sales {
+  padding: 40px 0;
+  background: #a82d49;
+}
+section.sales .container {
+  display: flex;
+  justify-items: center;
+}
+section.sales .container .col {
+  flex-basis: 25%;
+  text-align: center;
+}
+section.sales .container .col h3 {
+  color: #fff;
+  font-size: 40px;
+  margin: 10px 0 10px;
+  font-weight: 600;
+}
+section.sales .container .col p {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+/* ======================================= ABOUT =============================== */
+
+section.about-us .about {
+  display: flex;
+  justify-items: center;
+  padding-top: 100px;
+}
+section.about-us .about .avatar {
+  width: 58%;
+  padding: 0 15px;
+}
+section.about-us .avatar img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+  height: auto;
+}
+section.about-us .about .about-content {
+  width: 42%;
+  padding: 0 15px;
+  margin: auto 0;
+}
+section.about-us .about .about-content h3 {
+  font-size: 32px;
+  line-height: 45px;
+  color: #43121d;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+section.about-us .about .about-content p {
+  padding: 20px 0;
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+
+  margin-bottom: 10px;
+}
+section.about-us .about .about-content .btn {
+  margin: 0;
+}
+section.about-us .about2 {
+  flex-direction: row-reverse;
+}
+section.about-us .about2 .about-content ul li {
+  padding: 6px 0 9px 35px;
+  position: relative;
+  color: #555;
+}
+section.about-us .about2 .about-content ul li i {
+  min-width: 30px;
+  color: #a82d49;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-size: 25px;
+}
+section.about-us .about2 .about-content .btn {
+  margin-top: 30px;
+}
+section.about-us .about3 {
+  text-align: center;
+  background: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 350px;
+  padding-top: 50px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+section.about-us .about3 h1 {
+  color: #a82d49;
+  padding-top: 40px;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+}
+section.about-us .about3 p {
+  color: #555;
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+section.about-us .about3 a {
+  display: inline-block;
+  color: #43121d;
+  margin-top: 20px;
+}
+section.about-us .about3 a:hover {
+  color: #a82d49;
+}
