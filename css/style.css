@@ -20,7 +20,6 @@ li {
 /* ============================ HEADER ============================== */
 
 header {
-  box-shadow: rgb(0 0 0 / 20%) 0px 1px 8px;
   position: sticky;
   width: 100%;
   top: 0;
@@ -249,4 +248,144 @@ section.about-us .about3 a {
 }
 section.about-us .about3 a:hover {
   color: #a82d49;
+}
+
+/* ===================================== EXPLORE FOODS =========================== */
+
+section.explore {
+  padding: 90px 0;
+}
+section.explore h2 {
+  color: #43121d;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+section.explore p {
+  font-size: 16px;
+  padding: 0 14% 80px 14%;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+section.explore .products {
+  display: flex;
+}
+section.explore .products .card-product {
+  width: 33.333333%;
+  padding: 0 15px;
+}
+section.explore .products .card-product img {
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+section.explore .products .card-product h4 {
+  color: #43121d;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-size: 18px;
+  line-height: 1.1;
+  padding: 15px 0 0 15px;
+}
+section.explore .products .card-product p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: left !important;
+  margin: 0 0 10px;
+  padding: 0 0 0 15px;
+}
+section.explore .products .card-product .product-price {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  padding-left: 15px;
+}
+section.explore .products .card-product .product-price .price-new {
+  font-weight: bold;
+  color: #a82d49;
+}
+section.explore .products .card-product .product-price .price-old {
+  color: #999;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+section.explore .products .card-product .btn {
+  margin: 15px;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+hr {
+  opacity: 0.3;
+}
+
+/* ======================================= TESTIMONIALS ============================ */
+
+.testimonials {
+  background-color: #a82d49;
+  padding-bottom: 50px;
+}
+.testimonials .testimonial-title {
+  color: #fff;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  padding: 80px 0;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.testimonials .swiper-slide {
+  display: block;
+  background: #fff;
+  padding: 50px;
+  border-radius: 15px;
+}
+.testimonials .swiper-slide img {
+  max-width: 80px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+.testimonials .swiper-slide p {
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 300;
+  color: #111;
+  padding: 0 21% 20px;
+  letter-spacing: 0;
+  text-align: center;
+}
+.testimonials .swiper-slide span {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  color: #a82d49;
+  text-align: center;
+}
+.testimonials .swiper-pagination {
+  padding: 30px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
 }
