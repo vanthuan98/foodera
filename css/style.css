@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -13,7 +16,7 @@ li {
   list-style-type: none;
 }
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -388,4 +391,161 @@ hr {
   width: 15px;
   height: 15px;
   margin: 0 5px;
+}
+
+/* ==================================== FAQs ================================= */
+.faqs {
+  margin-bottom: 100px;
+}
+.faq-title {
+  color: #43121d;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  text-align: center;
+  padding: 80px 0;
+}
+.faqs-group-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.faq-content {
+  margin-bottom: 30px;
+  flex-basis: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.faq-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+.faq-content h3 span {
+  color: #f98169;
+  font-size: 28px;
+  font-family: ubuntu;
+  font-weight: 300;
+  vertical-align: middle;
+}
+.faq-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* ================================= PARALLAX =========================== */
+.parallax {
+  background: url(../images/parallax.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+}
+.parallax::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.parallax-content {
+  position: relative;
+  z-index: 998;
+}
+.parallax-content h4 {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0.2px;
+  width: 66.6666667%;
+  color: #fff;
+}
+.parallax .container .parallax-content {
+  display: flex;
+  align-items: center;
+}
+.parallax-content a {
+  margin: 0;
+}
+
+/* ================================ SUBSCRIBE ======================== */
+.subscribe {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.subscribe h3 {
+  color: #43121d;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-size: 36px;
+  text-align: center;
+}
+.subscribe p {
+  color: #555;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding: 25px 0 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.subscribe form {
+  width: 55%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe form input[type="email"] {
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  width: 60%;
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+  border: 3px solid #e5e5e5;
+  color: #000;
+  font-weight: 600;
+  outline: none;
+  margin: 0 15px;
+}
+.subscribe form input[type="submit"] {
+  margin: 0 15px !important;
+}
+
+/* ================================== FOOTER ========================= */
+.footer {
+  background: #a82d49;
+  padding: 80px 0;
+}
+.footer .footer-link,
+.footer .footer-social,
+.footer p {
+  text-align: center;
+  color: #fff;
+}
+.footer .footer-link a {
+  padding-right: 30px;
+  color: #fff;
+}
+.footer .footer-link a:hover {
+  text-decoration: underline;
+}
+.footer .footer-social a {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  color: #fff;
 }
