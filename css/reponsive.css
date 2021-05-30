@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@media (max-width: 1024px) {
+  /* ================= Header */
+}
+@media (max-width: 768px) {
+  /* ================= Header */
+  header .container .logo {
+    padding: 5px 0 0;
+    max-width: 150px;
+  }
+  header .container .logo img {
+    max-width: 100%;
+  }
+  /* ================== Intro */
+  .intro {
+    padding: 100px 0 100px;
+  }
+  /* ================== Testimonial */
+  .testimonials {
+    padding-bottom: 0;
+  }
+  .testimonials .testimonial-title {
+    padding: 40px 0;
+  }
+  /* ================== Faqs */
+  .faq-title {
+    padding: 40px 0;
+  }
+  .faqs {
+    margin-bottom: 50px;
+  }
+  /* =================== Subscribe */
+  .subscribe {
+    padding: 60px 0;
+  }
+  /*=================== Footer  */
+  .footer {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 380px) {
+  /* ================== Header */
+  header .container {
+    padding: 10px;
+    position: relative;
+  }
+  header .container .logo {
+    padding: 0;
+    width: 100px;
+  }
+  header .container .logo img {
+    width: 100px;
+    max-width: 100px;
+  }
+  nav.nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+  header .container .nav .menu {
+    background: #a82d49;
+    display: block;
+  }
+  header .container .nav .menu li {
+    text-align: center;
+    border-bottom: 2px solid #fff;
+  }
+  header .container .nav .menu li a {
+    display: block;
+    /* padding: 40px 12px 35px; */
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px;
+  }
+  header .container .nav .menu li:last-of-type a {
+    padding: 15px;
+  }
+  /* ================= Intro */
+  .intro {
+    padding: 50px 0 50px;
+  }
+  .intro .intro_content {
+    width: 80%;
+  }
+  .intro .intro_content h3 {
+    margin: 0px 0px 15px;
+    font-size: 25px;
+  }
+  .intro .intro_content p {
+    font-size: 12px;
+    padding: 0 0 12px;
+  }
+  .btn {
+    margin-top: 0px;
+    font-size: 14px;
+    padding: 5px 5px;
+  }
+  /* ================ Sales */
+  section.sales .container .col {
+    width: 25%;
+  }
+  section.sales .container .col h3 {
+    font-size: 25px;
+  }
+  section.sales .container .col p {
+    font-size: 10px;
+  }
+  /* ============ About */
+  section.about-us .about {
+    display: block;
+    padding-top: 50px;
+  }
+  section.about-us .about .about-content {
+    width: 100%;
+    padding: 0 15px;
+    margin: auto 0;
+  }
+  section.about-us .about .avatar {
+    width: 100%;
+    padding: 0 15px;
+  }
+  section.about-us .about .about-content h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  section.about-us .about .about-content p {
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  section.about-us .about3 {
+    height: auto;
+    padding-top: 0px;
+    margin-top: 50px;
+    padding: 0 15px 50px;
+  }
+  section.about-us .about3 h1 {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  section.about-us .about3 p {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+  /* ============= Explore */
+  section.explore {
+    padding: 50px 0 20px;
+  }
+  section.explore h2 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  section.explore p {
+    font-size: 16px;
+    padding: 0 15px;
+    line-height: 25px;
+    margin: 0 0 20px;
+  }
+  section.explore .products {
+    display: block;
+  }
+  section.explore .products .card-product {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  section.explore .products .card-product h4 {
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 0 0 15px;
+  }
+  section.explore .products .card-product p {
+    font-size: 12px;
+    line-height: 28px;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+  }
+  section.explore .products .card-product .product-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  /* ================= Testimonials */
+  .testimonials .testimonial-title {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 30px 0;
+  }
+  .testimonials .swiper-slide {
+    padding: 30px 15px;
+  }
+  .testimonials .swiper-slide p {
+    font-size: 21px;
+    line-height: 33px;
+    padding: 0 0 20px 0;
+  }
+  .testimonials .swiper-pagination {
+    padding: 25px;
+  }
+  .testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  /* ================ Faqs */
+  .faq-title {
+    padding: 40px 0;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 0;
+  }
+  .faqs-group-content {
+    display: block;
+  }
+  .faq-content {
+    margin-bottom: 20px;
+  }
+  .faq-content h3 {
+    font-size: 16px;
+  }
+  .faq-content p {
+    font-size: 14px;
+  }
+  /* ================== Parallax */
+  .parallax .container .parallax-content {
+    justify-content: space-between;
+  }
+  .parallax-content h4 {
+    font-size: 20px;
+  }
+  /* ================ Subscribe */
+  .subscribe {
+    padding: 50px 15px;
+  }
+  .subscribe h3 {
+    font-size: 25px;
+  }
+  .subscribe form {
+    width: 100%;
+  }
+  .subscribe form input[type="email"] {
+    width: 100%;
+    margin: 0;
+  }
+  .subscribe form input[type="submit"] {
+    height: 50px;
+    margin: 0 !important;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Header */
+}
