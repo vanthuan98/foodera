@@ -79,6 +79,12 @@
   header .container .nav .menu li:last-of-type a {
     padding: 15px;
   }
+  .menu-bar {
+    display: block;
+  }
+  .show-menu {
+    display: block !important;
+  }
   /* ================= Intro */
   .intro {
     padding: 50px 0 50px;
@@ -232,6 +238,7 @@
   /* ================== Parallax */
   .parallax .container .parallax-content {
     justify-content: space-between;
+    padding: 0 15px;
   }
   .parallax-content h4 {
     font-size: 20px;
@@ -246,7 +253,7 @@
   .subscribe form {
     width: 100%;
   }
-  .subscribe form input[type="email"] {
+  .subscribe form input:nth-child(1) {
     width: 100%;
     margin: 0;
   }

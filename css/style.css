@@ -61,6 +61,18 @@ header .container .nav .menu li:last-of-type a:hover {
   background-color: #fff;
   color: #a82d49;
 }
+.menu-bar {
+  padding: 15px;
+  font-size: 25px;
+  color: #a82d49;
+  border: none;
+  outline: none;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  display: none;
+}
 
 /* ============================================ INTRO ==========================*/
 

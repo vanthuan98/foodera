@@ -13,3 +13,14 @@ var swiper = new Swiper('.swiper-testimonial', {
     },
     loop: true,
 })
+// Toggle menu
+var menuBar = document.querySelector('.menu-bar');
+var nav = document.querySelector('.nav');
+
+menuBar.addEventListener('click', function() {
+    if (nav.classList.value.indexOf('show-menu') !== -1) {
+        nav.classList.remove('show-menu');
+    }else {
+        nav.classList.add('show-menu');
+    }
+})
