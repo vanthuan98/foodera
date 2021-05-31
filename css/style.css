@@ -516,7 +516,7 @@ hr {
   justify-content: center;
   align-items: center;
 }
-.subscribe form input[type="email"] {
+.subscribe form .subs-email {
   height: 50px;
   padding: 0 20px;
   font-size: 14px;
@@ -531,7 +531,7 @@ hr {
   outline: none;
   margin: 0 15px;
 }
-.subscribe form input[type="submit"] {
+.subscribe form .subs-submit {
   margin: 0 15px !important;
 }
 

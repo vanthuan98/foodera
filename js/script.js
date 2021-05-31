@@ -24,3 +24,14 @@ menuBar.addEventListener('click', function() {
         nav.classList.add('show-menu');
     }
 })
+
+var menuLinkNav = document.querySelectorAll('header .container .nav .menu li a');
+menuLinkNav.forEach((el, ind) => {
+    el.addEventListener('click', function() {
+        nav.classList.remove('show-menu');
+    });
+})
+
+// window.addEventListener('click', function() {
+//     nav.classList.remove('show-menu');
+// })
